@@ -1,0 +1,30 @@
+{
+  "name": "inok/excel-helper",
+  "description": "Excel LibXL Helper Classes",
+  "keywords": ["xlsx", "libxl", "excel", "helper"],
+  "homepage": "http://blog.kgd.in",
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Chizhov Nikolay",
+      "email": "admin@kgd.in",
+      "homepage": "http://blog.kgd.in",
+      "role": "System Administrator"
+    },
+    {
+      "name": "Rob Gagnon",
+      "email": "rgagnon24@gmail.com",
+      "homepage": "http://github.com/iliaal"
+    }
+  ],
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-0": {
+      "Excel": "src/"
+    }
+  }
+}
